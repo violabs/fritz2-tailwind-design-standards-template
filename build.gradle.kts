@@ -26,6 +26,7 @@ kotlin {
             dependencies {
                 implementation("dev.fritz2:core:$fritz2Version")
                 // implementation("dev.fritz2:headless:$fritz2Version") // optional
+                // implementation("com.violabs:kotlin-tailwind:1.0-SNAPSHOT")
             }
         }
         val jvmMain by getting {
